@@ -20,7 +20,7 @@ function Example(){
                 안쪽 중괄호 : 스타일 정보를 담은 객체를 표현  
             */}
             <p style={{ color:'indianred', fontSize: 20}}>
-                style은 객체 형태로 입력! 스타일 속성명은 camelCase 사용.</p>
+                style은 객체 형태로 입력! 스타일 속성명은 camelCase 사용!</p>
 
             <p style={boxStyle}>스타일 객체를 변수로 따로 저장하여 사용 가능!</p>
             
