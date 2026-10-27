@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom"
 import styled from "styled-components"
-import { CATEGORIES } from "../constants"   // ← CATEGORIES가 있는 파일 경로로 맞추기
+import { CATEGORIES } from "../constants.js"   // ← CATEGORIES가 있는 파일 경로로 맞추기
 
 const Header = styled.header`
     background: #fff;
