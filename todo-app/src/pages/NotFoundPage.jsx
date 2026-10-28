@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { Card, EmptyText, PageTitle } from "../styles/common"
 
-function NotFound() {
+function NotFoundPage() {
     return (
         <>
             <PageTitle>404</PageTitle>
@@ -13,4 +13,4 @@ function NotFound() {
     )
 }
 
-export default NotFound
+export default NotFoundPage

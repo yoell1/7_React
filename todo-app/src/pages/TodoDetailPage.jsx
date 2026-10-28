@@ -1,10 +1,10 @@
 
-function ToDetailPage() {
+function TodoDetailPage() {
     return (
         <>
-            <p>상세 페이지</p>
+            <p>Todo 상세 페이지</p>
         </>
     )
 }
 
-export default ToDetailPage
+export default TodoDetailPage

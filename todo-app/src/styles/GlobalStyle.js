@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-// craeteGlobalStyle : 전역 스타일 지정
+// createGlobalStyle : 전역 스타일 지정
 const GlobalStyle = createGlobalStyle`
 * {
     box-sizing: border-box;

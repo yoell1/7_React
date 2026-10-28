@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom"
 import styled from "styled-components"
-import { CATEGORIES } from "../constants.js"   // ← CATEGORIES가 있는 파일 경로로 맞추기
+import { CATEGORIES } from "../constants"
 
 const Header = styled.header`
     background: #fff;
@@ -12,9 +12,15 @@ const Nav = styled.nav`
     margin: 0 auto;
     padding: 14px 20px;
     display: flex;
-    align-items: center;
+    align-item: center;
     gap: 16px;
     flex-wrap: wrap;
+`
+
+const Main = styled.main`
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
 `
 
 const StyledNavLink = styled(NavLink)`
@@ -28,13 +34,8 @@ const StyledNavLink = styled(NavLink)`
     }
 `
 
-const Main = styled.main`
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 24px 20px 60px;
-`
 
-function Layout(){
+function Layout() {
     return (
         <>
             <Header>
@@ -42,7 +43,7 @@ function Layout(){
                     <StyledNavLink to="/" end>대시보드</StyledNavLink>
                     <StyledNavLink to="/todos" end>할 일 목록</StyledNavLink>
                     {
-                        Object.entries(CATEGORIES).map(([key, { label }]) => {
+                        Object.entries(CATEGORIES).map(([key, { label }])=>{
                             return (
                                 <StyledNavLink key={key} to={`/category/${key}`}>
                                     {label}

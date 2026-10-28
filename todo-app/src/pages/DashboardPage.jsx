@@ -1,6 +1,7 @@
 import styled from "styled-components"
-import { Card, PageTitle } from "../styles/common"
 import { Link } from "react-router-dom"
+
+import { Card, PageTitle } from "../styles/common"
 
 const Stats = styled.div`
   display: grid;
@@ -39,7 +40,6 @@ const CategoryCard = styled(Link)`
   }
 `
 
-
 function DashboardPage() {
     return (
         <>
@@ -66,9 +66,9 @@ function DashboardPage() {
             </CategoryGrid>
 
             <SectionTitle>최근 할 일</SectionTitle>
-            {/* TODO: 할일목록 표시*/}
+            {/* TODO: 할일목록 표시 */}
         </>
-    )    
+    )
 }
 
 export default DashboardPage
