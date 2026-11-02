@@ -40,7 +40,7 @@ const initialTodos = [
     memo: '금요일 오전까지 제출',
     category: 'work',
     done: false,
-    createdAt: '2026-10-30T09:00:00.000Z',
+    createdAt: '2026-10-26T09:00:00.000Z',
   },
 ]
 

@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom'
 
 import './App.css'
-import Home from './pages/Home'
-import PostListPage from './pages/PostListPage'
 import EditPostPage from './pages/EditPostPage'
+import Home from './pages/Home'
 import NewPostPage from './pages/NewPostPage'
 import NotFoundPage from './pages/NotFoundPage'
+import PostListPage from './pages/PostListPage'
 import Layout from './components/Layout'
 
 function App() {

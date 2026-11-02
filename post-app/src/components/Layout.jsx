@@ -21,15 +21,14 @@ function Layout() {
         <>
             <Header>
                 <Link to="/">Home</Link>
-                <Link to="posts">게시글</Link>
-                <Link to="posts/new">새 글</Link>    
+                <Link to="/posts">게시글</Link>
+                <Link to="/posts/new">새 글</Link>
             </Header>
             <Main>
                 <Outlet />
             </Main>
-
         </>
-    )   
+    )
 }
 
 export default Layout

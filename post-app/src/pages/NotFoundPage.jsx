@@ -1,7 +1,7 @@
 function NotFoundPage() {
     return (
         <>
-            <p>NotFoundPage</p>
+            NotFound
         </>
     )
 }
